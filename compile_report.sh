@@ -1,3 +1,4 @@
 #/bin/sh!
-pdflatex report.tex
+pdflatex -shell-escape report.tex
+pdflatex -shell-escape report.tex
 open report.pdf
